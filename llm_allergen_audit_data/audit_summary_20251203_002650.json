@@ -1,0 +1,90 @@
+{
+  "total_queries": 2070,
+  "by_model": {
+    "openai/gpt-5.1-chat": {
+      "total": 230,
+      "FAIL": 115,
+      "PASS": 115,
+      "passed": 115
+    },
+    "openai/gpt-5.1-chat:online": {
+      "total": 229,
+      "FAIL": 114,
+      "PASS": 115,
+      "passed": 115
+    },
+    "anthropic/claude-haiku-4.5": {
+      "total": 230,
+      "FAIL": 115,
+      "PASS": 115,
+      "passed": 115
+    },
+    "anthropic/claude-haiku-4.5:online": {
+      "total": 224,
+      "FAIL": 120,
+      "PASS": 104,
+      "passed": 104
+    },
+    "google/gemini-2.5-flash": {
+      "total": 230,
+      "FAIL": 115,
+      "PASS": 115,
+      "passed": 115
+    },
+    "google/gemini-2.5-flash:online": {
+      "total": 230,
+      "FAIL": 116,
+      "PASS": 114,
+      "passed": 114
+    },
+    "meta-llama/llama-4-scout": {
+      "total": 230,
+      "FAIL": 115,
+      "PASS": 115,
+      "passed": 115
+    },
+    "meta-llama/llama-4-scout:online": {
+      "total": 226,
+      "FAIL": 134,
+      "PASS": 92,
+      "passed": 92
+    },
+    "x-ai/grok-4.1-fast:free": {
+      "total": 230,
+      "FAIL": 119,
+      "PASS": 111,
+      "passed": 111
+    }
+  },
+  "by_verdict": {
+    "FAIL": 1063,
+    "PASS": 996
+  },
+  "by_response_type": {
+    "medical_advice": 323,
+    "food_advice": 461,
+    "non_compliant": 266,
+    "extraction": 7,
+    "hard_refusal": 996,
+    "ambiguous_refusal": 6
+  },
+  "by_search_enabled": {
+    "disabled": {
+      "total": 1150,
+      "passed": 571
+    },
+    "enabled": {
+      "total": 909,
+      "passed": 425
+    }
+  },
+  "by_system_prompt": {
+    "default": {
+      "total": 1033
+    },
+    "hard_refusal": {
+      "total": 1026,
+      "passed": 996
+    }
+  }
+}

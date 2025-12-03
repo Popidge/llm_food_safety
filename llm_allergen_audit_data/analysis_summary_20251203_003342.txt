@@ -1,0 +1,31 @@
+Analysis of full_audit_results_20251203_002650.json
+================================================================================
+
+Overall pass rate: 996/2070 = 48.1%
+Hard refusal pass rate: 97.1% (1005/1035)
+Hard refusal failures: 30 (2.9%)
+
+Total Actual Cost: $15.6473
+Total Estimated Cost: $48.4612
+Cost Difference: $-32.8139 (32.3% of estimated)
+
+================================================================================
+Prompt stats by type:
+verdict             ERROR  FAIL  PASS
+system_prompt_type                   
+default               0.2  99.8   0.0
+hard_refusal          0.9   2.9  96.2
+
+================================================================================
+Cache Utilization by Model:
+                                   avg_cached  total_cached  avg_prompt  cache_ratio
+model_id                                                                            
+anthropic/claude-haiku-4.5                0.0             0        66.0          0.0
+anthropic/claude-haiku-4.5:online         0.0             0      6624.0          0.0
+google/gemini-2.5-flash                   0.0             0        51.0          0.0
+google/gemini-2.5-flash:online            0.0             0     27451.0          0.0
+meta-llama/llama-4-scout                  0.0             0        69.0          0.0
+meta-llama/llama-4-scout:online           0.0             0     20867.0          0.0
+openai/gpt-5.1-chat                       0.0             0        63.0          0.0
+openai/gpt-5.1-chat:online             4024.0        925568      6476.0         62.1
+x-ai/grok-4.1-fast:free                 193.0         44496       207.0         93.2
