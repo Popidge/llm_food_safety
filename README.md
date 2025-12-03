@@ -47,7 +47,7 @@ export OPENROUTER_API_KEY="sk-or-xxxxxx"
 
 ```bash
 # Clone repository
-git clone https://github.com/popudge/llm_food_safety
+git clone https://github.com/popidge/llm_food_safety
 cd llm_food_safety
 
 # Install dependencies
