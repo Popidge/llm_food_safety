@@ -47,8 +47,8 @@ export OPENROUTER_API_KEY="sk-or-xxxxxx"
 
 ```bash
 # Clone repository
-git clone https://github.com/agent-pizza/llm-food-safety-audit.git
-cd llm-food-safety-audit
+git clone https://github.com/popudge/llm_food_safety
+cd llm_food_safety
 
 # Install dependencies
 uv sync  # pandas, requests, matplotlib
